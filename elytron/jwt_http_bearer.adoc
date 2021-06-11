@@ -1,0 +1,46 @@
+= WFCORE-XXX  Ability to use BEARER /JWT authentication when using EJB over HTTP
+:author:            Lin Gao
+:email:             lgao@redhat.com
+:toc:               left
+:icons:             font
+:idprefix:
+:idseparator:       -
+
+== Overview
+
+* session store
+* cookie store
+* token refresh / refresh on each request(not recommended)
+* 
+
+== Issue Metadata
+
+=== Issue
+
+* https://issues.redhat.com/browse/EAP7-1359[EAP7-1359]
+
+=== Dev Contacts
+
+* mailto:lgao@redhat.com[Lin Gao]
+
+=== QE Contacts
+
+* TBD
+
+=== Affected Projects or Components
+
+* WildFly Http Client
+
+== Requirements
+
+=== Hard Requirements
+
+* Ability to authenticate via bearer http Authorization request header for remote EJB call
+
+=== Nice-to-Have Requirements
+
+* TBD
+
+== Test Plan
+
+Functionality tests will be included in WildFly Http Client
