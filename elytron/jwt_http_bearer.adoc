@@ -11,12 +11,14 @@
 * session store
 * cookie store
 * token refresh / refresh on each request(not recommended)
-* 
+* require https ?
+* via cookie or http header ? 
 
 == Issue Metadata
 
 === Issue
 
+* https://issues.redhat.com/browse/WEJBHTTP-43[WEJBHTTP-43]
 * https://issues.redhat.com/browse/EAP7-1359[EAP7-1359]
 
 === Dev Contacts
